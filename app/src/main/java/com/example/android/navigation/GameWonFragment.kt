@@ -67,7 +67,6 @@ class GameWonFragment : Fragment() {
         when (item!!.itemId) {
             R.id.share -> shareSuccess()
         }
-        
         return super.onOptionsItemSelected(item)
     }
 }
